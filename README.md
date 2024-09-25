@@ -3,6 +3,8 @@ Create short links with shorten.ly free API
 
 Developer friends, you can create your own short links for free and without registration with our API.
 
+Transform your long URLs into concise, shareable links with our free URL shortener API! Designed for developers and marketers, our service offers easy integration, real-time tracking, and analytics to optimize your link performance. Boost your online presence and streamline your sharing process today!
+
 To use our **API**, just send a **GET** request to:
 
 `https://shorten.ly/api.php?url=[url]`
@@ -39,18 +41,17 @@ List of available parameters
 Example of a full request
 -------------------------
 
-`https://api.shorten.ly/**?url=**https%3A%2F%2Fwww.mylogdomain.com%2Farticle%2Flong-title.html**&alias=**shorty**&expiration\_date=**2024-12-12 12:00**&android=**https%3A%2F%2Fplay.google.com%2Fstore%2Fapps%2Fdetails%3Fid%3Dcom.instagram.barcelona`
+`https://api.shorten.ly/?url=https%3A%2F%2Fwww.mylogdomain.com%2Farticle%2Flong-title.html&alias=shorty&expiration\_date=2024-12-12 12:00&android=https%3A%2F%2Fplay.google.com%2Fstore%2Fapps%2Fdetails%3Fid%3Dcom.instagram.barcelona`
 
 Example of a JSON response
 --------------------------
-
-{
+`{
     "success":200,
     "response\_message":"success",
     "short\_url":"https://tin.al/shorty",
     "secret\_password":"AhE5zjHYE",
     "creation\_date":"2024-12-24 12:00"
-}   
+}`   
 
 Rate Limit.
 -----------
