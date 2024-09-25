@@ -12,93 +12,29 @@ Attaching your original link to be shortened as a parameter.
 List of available parameters
 ----------------------------
 
-Name
+| Name                  | Type                                          | Mandatory |
+|-----------------------|-----------------------------------------------|-----------|
+| url                   | Any URL (Encoded) / max 2000 chars            | yes       |
+| alias                 | Type text 2-30 chars                          |           |
+| password              | Type text 6-30 chars                          |           |
+| expiration_date       | Date format e.g: 2024-12-02 15:00             |           |
+| expiration_hits       | Max number of hits before link expires        |           |
+| cloak                 | bolean ( yes or no ) / Enable cloaking        |           |
+| facebook_pixel        | Facebook pixel ID                             |           |
+| x_pixel               | X (Twitter) pixel ID                          |           |
+| adword_pixel          | Adword pixel ID                               |           |
+| pinterest_pixel       | Pinterest pixel ID                            |           |
+| linkedin_pixel        | Linkedin pixel ID                             |           |
+| googleanalytics_pixel | Google Analytics pixel ID                     |           |
+| googletag_pixel       | Google Tag manager pixel ID                   |           |
+| bing_pixel            | Bing pixel ID                                 |           |
+| quora_pixel           | Quora  pixel ID                               |           |
+| android               | URL (Encoded) destination for android devices |           |
+| windows               | URL (Encoded) destination for Widows devices  |           |
+| mac                   | URL (Encoded) destination for Mac devices     |           |
+| iphone                | URL (Encoded) destination for (iOS) devices   |           |
+| linux                 | URL (Encoded) destination for linux devices   |           |
 
-Type
-
-Mandatory
-
-url
-
-Any URL (Encoded) / max 2000 chars
-
-yes
-
-alias
-
-Type text 2-30 chars
-
-password
-
-Type text 6-30 chars
-
-expiration\_date
-
-Date format e.g: 2024-12-02 15:00
-
-expiration\_hits
-
-Max number of hits before link expires
-
-cloak
-
-bolean ( yes or no ) / Enable cloaking
-
-facebook\_pixel
-
-Facebook pixel ID
-
-x\_pixel
-
-X (Twitter) pixel ID
-
-adword\_pixel
-
-Adword pixel ID
-
-pinterest\_pixel
-
-Pinterest pixel ID
-
-linkedin\_pixel
-
-Linkedin pixel ID
-
-googleanalytics\_pixel
-
-Google Analytics pixel ID
-
-googletag\_pixel
-
-Google Tag manager pixel ID
-
-bing\_pixel
-
-Bing pixel ID
-
-quora\_pixel
-
-Quora pixel ID
-
-android
-
-URL (Encoded) destination for android devices
-
-windows
-
-URL (Encoded) destination for Widows devices
-
-mac
-
-URL (Encoded) destination for Mac devices
-
-iphone
-
-URL (Encoded) destination for (iOS) devices
-
-linux
-
-URL (Encoded) destination for linux devices
 
 Example of a full request
 -------------------------
